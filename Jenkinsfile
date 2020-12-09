@@ -12,7 +12,7 @@ pipeline {
 		stage ("run") {
 			steps {
 				echo "Running"
-				bat """ java Demo"""
+				bat """ java Demo """
 				}
 			}
 		}
